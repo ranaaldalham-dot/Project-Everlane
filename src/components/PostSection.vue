@@ -148,30 +148,31 @@ const tips2 = [
   }
 ]
 
+const images = import.meta.glob('/src/assets/img/PostPage/*.png', { eager: true, import: 'default' }) 
 const items = [
-  { id: 1, name: 'The Cashmere Boxy Crew Sweater', price: '$139', link: 'Bone', image: '/src/assets/img/PostPage/edit1.png' },
-  { id: 2, name: 'The Corduroy Wide-Leg Pant', price: '$69', link: 'Canvas', image: '/src/assets/img/PostPage/edit2.png' },
-  { id: 3, name: 'The Organic Cotton Chunky Beanie', price: '$32', link: 'Canvas', image: '/src/assets/img/PostPage/edit3.png' },
-  { id: 4, name: 'The Chelsea Boot', price: '$137', link: 'Off-White', image: '/src/assets/img/PostPage/edit4.png' },
-  { id: 5, name: 'The Re:Down@Puffer', price: '$139', link: 'Bone', image: '/src/assets/img/PostPage/edit5.png' },
+  { id: 1, name: 'The Cashmere Boxy Crew Sweater', price: '$139', link: 'Bone', image: images ['/src/assets/img/PostPage/edit1.png'] },
+  { id: 2, name: 'The Corduroy Wide-Leg Pant', price: '$69', link: 'Canvas', image: images ['/src/assets/img/PostPage/edit2.png'] },
+  { id: 3, name: 'The Organic Cotton Chunky Beanie', price: '$32', link: 'Canvas', image: images ['/src/assets/img/PostPage/edit3.png'] },
+  { id: 4, name: 'The Chelsea Boot', price: '$137', link: 'Off-White', image: images ['/src/assets/img/PostPage/edit4.png'] },
+  { id: 5, name: 'The Re:Down@Puffer', price: '$139', link: 'Bone', image: images ['/src/assets/img/PostPage/edit5.png'] },
 ]
 
 const latestPosts = [
   {
     id: 1,
-    image: '/src/assets/img/PostPage/winter-whites-latest-post.png',
+    image: images ['/src/assets/img/PostPage/winter-whites-latest-post.png'],
     title: 'How To Style Winter Whites',
     category: 'Style',
   },
   {
     id: 2,
-    image: '/src/assets/img/PostPage/glossy-award-latest-post.png',
+    image: images ['/src/assets/img/PostPage/glossy-award-latest-post.png'],
     title: 'We Won A Glossy Award',
     category: 'Transparency',
   },
   {
     id:3,
-    image: '/src/assets/img/PostPage/matching-outfits-latest-post.png',
+    image: images ['/src/assets/img/PostPage/matching-outfits-latest-post.png'],
     title: 'Coordinate Your Style: Matching Outfits for Everyone',
     category: 'Style',
   },
