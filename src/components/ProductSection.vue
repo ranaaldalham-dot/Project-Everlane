@@ -175,11 +175,12 @@ const colors = [
   { name: 'Black', class: 'bg-yellow-900' }
 ]
 
+const images = import.meta.glob('/src/assets/img/ProductPage/*.png', { eager: true, import: 'default' }) 
 const recommended = [
-  { id: 1, name: "The Waffle Long-Sleeve Crew", price: "$50", oldPrice: "$60", info: "Bone", image: "/src/assets/img/ProductPage/recommended-1.png" },
-  { id: 2, name: "The Waffle Long-Sleeve Crew", price: "$50", oldPrice: "$60", info: "Bone", image: "/src/assets/img/ProductPage/recommended-2.png" },
-  { id: 3, name: "The Waffle Long-Sleeve Crew", price: "$50", oldPrice: "$60", info: "Bone", image: "/src/assets/img/ProductPage/recommended-3.png" },
-  { id: 4, name: "The Waffle Long-Sleeve Crew", price: "$50", oldPrice: "$60", info: "Bone", image: "/src/assets/img/ProductPage/recommended-4.png" },
+  { id: 1, name: "The Waffle Long-Sleeve Crew", price: "$50", oldPrice: "$60", info: "Bone", image: images ["/src/assets/img/ProductPage/recommended-1.png"] },
+  { id: 2, name: "The Waffle Long-Sleeve Crew", price: "$50", oldPrice: "$60", info: "Bone", image: images ["/src/assets/img/ProductPage/recommended-2.png"] },
+  { id: 3, name: "The Waffle Long-Sleeve Crew", price: "$50", oldPrice: "$60", info: "Bone", image: images ["/src/assets/img/ProductPage/recommended-3.png"] },
+  { id: 4, name: "The Waffle Long-Sleeve Crew", price: "$50", oldPrice: "$60", info: "Bone", image: images ["/src/assets/img/ProductPage/recommended-4.png"] },
 ];
 </script>
 

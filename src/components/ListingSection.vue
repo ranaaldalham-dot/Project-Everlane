@@ -190,6 +190,7 @@ const sizes1 = ['36', '38', '40', '42', '44', '46', '48', '50']
 
 const sizes2 = [ 'XXS', 'XS', 'S', 'M', 'L', 'XL', 'XXL', 'XXXL']
 
+const images = import.meta.glob('/src/assets/img/ListingPage/*.png', { eager: true, import: 'default' }) 
 const products = reactive( [
 {
     id: 1,
@@ -198,7 +199,7 @@ const products = reactive( [
     price: 132,
     oldPrice: 188,
     discount: 30,
-    image: '/src/assets/img/ListingPage/product1.png',
+    image: images ['/src/assets/img/ListingPage/product1.png'],
     swatches: [
       { name: 'Brown', class: 'bg-yellow-950' }, 
       { name: 'Grey', class: 'bg-gray-700' },
@@ -215,7 +216,7 @@ const products = reactive( [
     oldPrice: 50,
     discount: 30,
     tags: ['ORGANIC COTTON'],
-    image: '/src/assets/img/ListingPage/product2.png',
+    image: images ['/src/assets/img/ListingPage/product2.png'],
     swatches: [
       { name: 'Brown', class: 'bg-yellow-950' },
       { name: 'Black', class: 'bg-black' },
@@ -231,7 +232,7 @@ const products = reactive( [
     oldPrice: 138,
     discount: 30,
     tags: ['RENEWED MATERIALS', 'CLEANER CHEMISTRY'],
-    image: '/src/assets/img/ListingPage/product3.png',
+    image: images ['/src/assets/img/ListingPage/product3.png'],
     swatches: [
       { name: 'Grey', class: 'bg-zinc-800' },
       { name: 'Green', class: 'bg-lime-900' },
@@ -245,7 +246,7 @@ const products = reactive( [
     price: 132,
     oldPrice: 188,
     discount: 30,
-    image: '/src/assets/img/ListingPage/product4.png',
+    image: images ['/src/assets/img/ListingPage/product4.png'],
     swatches: [
       { name: 'Brown', class: 'bg-yellow-950' }, 
       { name: 'Grey', class: 'bg-gray-700' },
@@ -262,7 +263,7 @@ const products = reactive( [
     oldPrice: 50,
     discount: 30,
     tags: ['ORGANIC COTTON'],
-    image: '/src/assets/img/ListingPage/product5.png',
+    image: images ['/src/assets/img/ListingPage/product5.png'],
     swatches: [
       { name: 'Brown', class: 'bg-yellow-950' },
       { name: 'Black', class: 'bg-black' },
@@ -278,7 +279,7 @@ const products = reactive( [
     oldPrice: 138,
     discount: 30,
     tags: ['RENEWED MATERIALS', 'CLEANER CHEMISTRY'],
-    image: '/src/assets/img/ListingPage/product6.png',
+    image: images ['/src/assets/img/ListingPage/product6.png'],
     swatches: [
       { name: 'Grey', class: 'bg-zinc-800' },
       { name: 'Green', class: 'bg-lime-900' },
@@ -292,7 +293,7 @@ const products = reactive( [
     price: 132,
     oldPrice: 188,
     discount: 30,
-    image: '/src/assets/img/ListingPage/product7.png',
+    image: images ['/src/assets/img/ListingPage/product7.png'],
     swatches: [
       { name: 'Brown', class: 'bg-yellow-950' }, 
       { name: 'Grey', class: 'bg-gray-700' },
@@ -309,7 +310,7 @@ const products = reactive( [
     oldPrice: 50,
     discount: 30,
     tags: ['ORGANIC COTTON'],
-    image: '/src/assets/img/ListingPage/product8.png',
+    image: images ['/src/assets/img/ListingPage/product8.png'],
     swatches: [
       { name: 'Brown', class: 'bg-yellow-950' },
       { name: 'Black', class: 'bg-black' },
@@ -325,7 +326,7 @@ const products = reactive( [
     oldPrice: 138,
     discount: 30,
     tags: ['RENEWED MATERIALS', 'CLEANER CHEMISTRY'],
-    image: '/src/assets/img/ListingPage/product9.png',
+    image: images ['/src/assets/img/ListingPage/product9.png'],
     swatches: [
       { name: 'Grey', class: 'bg-zinc-800' },
       { name: 'Green', class: 'bg-lime-900' },
