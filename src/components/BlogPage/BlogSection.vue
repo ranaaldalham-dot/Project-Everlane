@@ -54,40 +54,41 @@ import { useRouter } from 'vue-router'
 
 const router = useRouter()
 
+const images = import.meta.glob('/src/assets/img/BlogPage/*.png', { eager: true, import: 'default' }) 
 const latestPosts = [
   {
     id: 1,
-    image: '/src/assets/img/BlogPage/winter-whites.png',
+    image: images['/src/assets/img/BlogPage/winter-whites.png'],
     title: "How To Style Winter Whites",
     category: "Style",
   },
   {
     id: 2,
-    image: '/src/assets/img/BlogPage/glossy-award.png',
+    image: images['/src/assets/img/BlogPage/glossy-award.png'],
     title: "We Won A Glossy Award",
     category: "Transparency",
   },
   {
     id: 3,
-    image: '/src/assets/img/BlogPage/matching-outfits.png',
+    image: images['/src/assets/img/BlogPage/matching-outfits.png'],
     title: "Coordinate Your Style: Matching Outfits for Everyone",
     category: "Style",
   },
   {
     id: 4,
-    image: '/src/assets/img/BlogPage/black-friday.png',
+    image: images['/src/assets/img/BlogPage/black-friday.png'],
     title: "Black Friday Fund 2023",
     category: "Transparency",
   },
   {
     id: 5,
-    image: '/src/assets/img/BlogPage/holiday-outfits-ideas.png',
+    image: images['/src/assets/img/BlogPage/holiday-outfits-ideas.png'],
     title: "What to Wear this Season: Holiday Outfits & Ideas",
     category: "Style",
   },
   {
     id: 6,
-    image: '/src/assets/img/BlogPage/thanksgiving-outfit.png',
+    image: images['/src/assets/img/BlogPage/thanksgiving-outfit.png'],
     title: "Thanksgiving Outfit Ideas",
     category: "Style",
   },
@@ -95,15 +96,15 @@ const latestPosts = [
 
 const progressItems = [
   {
-    image: '/src/assets/img/BlogPage/carbon-commitment.png',
+    image: images['/src/assets/img/BlogPage/carbon-commitment.png'],
     title: "Carbon Commitment",
   },
   {
-    image: '/src/assets/img/BlogPage/environmental-initiatives.png',
+    image: images['/src/assets/img/BlogPage/environmental-initiatives.png'],
     title: "Environmental Initiatives",
   },
   {
-    image: '/src/assets/img/BlogPage/better-factories.png',
+    image: images['/src/assets/img/BlogPage/better-factories.png'],
     title: "Better Factories",
   },
 ];

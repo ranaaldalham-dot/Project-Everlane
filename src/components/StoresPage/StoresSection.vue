@@ -13,51 +13,52 @@
 </template>  
 
 <script setup>
+const images = import.meta.glob('/src/assets/img/StoresPage/*.png', { eager: true, import: 'default' }) 
 const stores = [
   {
     city: 'Seattle',
     name: 'University Village',
-    image: '/src/assets/img/StoresPage/store-seattle.png',
+    image: images ['/src/assets/img/StoresPage/store-seattle.png']
   },
   {
     city: 'San Francisco',
     name: 'Valencia Street, San Francisco',
-    image: '/src/assets/img/StoresPage/store-sanfrancisco.png',
+    image: images ['/src/assets/img/StoresPage/store-sanfrancisco.png']
   },
   {
     city: 'Palo Alto',
     name: 'Stanford',
-    image: '/src/assets/img/StoresPage/store-stanford.png',
+    image: images ['/src/assets/img/StoresPage/store-stanford.png']
   },
   {
     city: 'Los Angeles',
     name: 'Abbot Kinney',
-    image: '/src/assets/img/StoresPage/store-losangeles.png',
+    image: images ['/src/assets/img/StoresPage/store-losangeles.png']
   },
   {
     city: 'Boston',
     name: 'Seaport',
-    image: '/src/assets/img/StoresPage/store-boston.png',
+    image: images ['/src/assets/img/StoresPage/store-boston.png']
   },
   {
     city: 'New York',
     name: 'Prince Street, New York',
-    image: '/src/assets/img/StoresPage/store-newyork.png',
+    image: images ['/src/assets/img/StoresPage/store-newyork.png']
   },
   {
     city: 'Brooklyn',
     name: 'Williamsburg',
-    image: '/src/assets/img/StoresPage/store-brooklyn.png',
+    image: images ['/src/assets/img/StoresPage/store-brooklyn.png']
   },
   {
     city: 'King of Prussia',
     name: 'King of Prussia',
-    image: '/src/assets/img/StoresPage/store-kingofprussia.png',
+    image: images ['/src/assets/img/StoresPage/store-kingofprussia.png']
   },
   {
     city: 'Georgetown',
     name: 'Georgetown',
-    image: '/src/assets/img/StoresPage/store-georgetown.png',
+    image: images ['/src/assets/img/StoresPage/store-georgetown.png']
   },
 ];
 </script>

@@ -181,12 +181,13 @@ const reviews = [
   },
 ]
 
+const images = import.meta.glob('/src/assets/img/ProductPage/*.png', { eager: true, import: 'default' }) 
 const pricing = [
-  { label: "Materials", cost: "$47.96", icon: "/src/assets/img/ProductPage/icon-1.png" },
-  { label: "Hardware", cost: "$3.74", icon: "/src/assets/img/ProductPage/icon-2.png" },
-  { label: "Labor", cost: "$19.75", icon: "/src/assets/img/ProductPage/icon-3.png" },
-  { label: "Duties", cost: "$8.09", icon: "/src/assets/img/ProductPage/icon-4.png" },
-  { label: "Transport", cost: "$1.63", icon: "/src/assets/img/ProductPage/icon-5.png" },
+  { label: "Materials", cost: "$47.96", icon: images ["/src/assets/img/ProductPage/icon-1.png"] },
+  { label: "Hardware", cost: "$3.74", icon: images ["/src/assets/img/ProductPage/icon-2.png"] },
+  { label: "Labor", cost: "$19.75", icon: images ["/src/assets/img/ProductPage/icon-3.png"] },
+  { label: "Duties", cost: "$8.09", icon: images ["/src/assets/img/ProductPage/icon-4.png"] },
+  { label: "Transport", cost: "$1.63", icon: images ["/src/assets/img/ProductPage/icon-5.png"] },
 ];
 </script>
 
