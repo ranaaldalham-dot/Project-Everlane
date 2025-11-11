@@ -1,7 +1,9 @@
 <template>
   
   <section class="relative">
-    <div img class="hero w-full h-[600px] bg-cover bg-center flex items-center text-white" style="background-image: url('/src/assets/img/PostPage/winter-whites-post.png')">
+        <!-- <div img class="hero w-full h-[600px] bg-cover bg-center flex items-center text-white" style="background-image: url('/src/assets/img/PostPage/winter-whites-post.png')"> -->
+    <div> 
+      <img class="hero w-full h-[600px] bg-cover bg-center flex items-center text-white" src="/src/assets/img/PostPage/winter-whites-post.png" alt="winter whites post" />
       <div class=" justify-start space-y-3 px-10 py-4">
         <span class="text-sm tracking-wide border border-white rounded-full px-5 py-1 ">Style</span>
         <h1 class="text-3xl md:text-5xl font-semibold leading-tight"> Style <br> How To Style Winter <br /> Whites</h1>
