@@ -35,7 +35,7 @@
             </div>
             <div class="text-center">
                 <img src="/src/assets//img/LandingPage/outerwear.png" alt="outerwear">
-                <RouterLink to="/product" class="underline">Outerwear</RouterLink>
+                <RouterLink to="/product/:id" class="underline">Outerwear</RouterLink>
             </div>
           </div>
         </div>
