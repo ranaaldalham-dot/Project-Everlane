@@ -1,9 +1,7 @@
 <template>
   
   <section class="relative">
-        <!-- <div img class="hero w-full h-[600px] bg-cover bg-center flex items-center text-white" style="background-image: url('/src/assets/img/PostPage/winter-whites-post.png')"> -->
-    <div> 
-      <img class="hero w-full h-[600px] bg-cover bg-center flex items-center text-white" src="/src/assets/img/PostPage/winter-whites-post.png" alt="winter whites post" />
+    <div img class="hero w-full h-[600px] bg-cover bg-center flex items-center text-white" :style="{ backgroundImage: `url(${currentImage})` }"> 
       <div class=" justify-start space-y-3 px-10 py-4">
         <span class="text-sm tracking-wide border border-white rounded-full px-5 py-1 ">Style</span>
         <h1 class="text-3xl md:text-5xl font-semibold leading-tight"> Style <br> How To Style Winter <br /> Whites</h1>
@@ -151,6 +149,8 @@ const tips2 = [
 ]
 
 const images = import.meta.glob('/src/assets/img/PostPage/*.png', { eager: true, import: 'default' }) 
+const currentImage = images['/src/assets/img/PostPage/winter-whites-post.png']
+
 const items = [
   { id: 1, name: 'The Cashmere Boxy Crew Sweater', price: '$139', link: 'Bone', image: images ['/src/assets/img/PostPage/edit1.png'] },
   { id: 2, name: 'The Corduroy Wide-Leg Pant', price: '$69', link: 'Canvas', image: images ['/src/assets/img/PostPage/edit2.png'] },
