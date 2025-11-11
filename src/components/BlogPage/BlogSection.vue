@@ -58,37 +58,61 @@ const images = import.meta.glob('/src/assets/img/BlogPage/*.png', { eager: true,
 const latestPosts = [
   {
     id: 1,
+<<<<<<< HEAD
     image: images['/src/assets/img/BlogPage/winter-whites.png'],
+=======
+    image: images ['/src/assets/img/BlogPage/winter-whites.png'],
+>>>>>>> 84eaaf4 (Reorganized component folders by page:)
     title: "How To Style Winter Whites",
     category: "Style",
   },
   {
     id: 2,
+<<<<<<< HEAD
     image: images['/src/assets/img/BlogPage/glossy-award.png'],
+=======
+    image: images ['/src/assets/img/BlogPage/glossy-award.png'],
+>>>>>>> 84eaaf4 (Reorganized component folders by page:)
     title: "We Won A Glossy Award",
     category: "Transparency",
   },
   {
     id: 3,
+<<<<<<< HEAD
     image: images['/src/assets/img/BlogPage/matching-outfits.png'],
+=======
+    image: images ['/src/assets/img/BlogPage/matching-outfits.png'],
+>>>>>>> 84eaaf4 (Reorganized component folders by page:)
     title: "Coordinate Your Style: Matching Outfits for Everyone",
     category: "Style",
   },
   {
     id: 4,
+<<<<<<< HEAD
     image: images['/src/assets/img/BlogPage/black-friday.png'],
+=======
+    image: images ['/src/assets/img/BlogPage/black-friday.png'],
+>>>>>>> 84eaaf4 (Reorganized component folders by page:)
     title: "Black Friday Fund 2023",
     category: "Transparency",
   },
   {
     id: 5,
+<<<<<<< HEAD
     image: images['/src/assets/img/BlogPage/holiday-outfits-ideas.png'],
+=======
+    image: images ['/src/assets/img/BlogPage/holiday-outfits-ideas.png'],
+>>>>>>> 84eaaf4 (Reorganized component folders by page:)
     title: "What to Wear this Season: Holiday Outfits & Ideas",
     category: "Style",
   },
   {
     id: 6,
+<<<<<<< HEAD
     image: images['/src/assets/img/BlogPage/thanksgiving-outfit.png'],
+=======
+    image: images ['/src/assets/img/BlogPage/thanksgiving-outfit.png'],
+>>>>>>> 84eaaf4 (Reorganized component folders by page:)
     title: "Thanksgiving Outfit Ideas",
     category: "Style",
   },
@@ -96,6 +120,7 @@ const latestPosts = [
 
 const progressItems = [
   {
+<<<<<<< HEAD
     image: images['/src/assets/img/BlogPage/carbon-commitment.png'],
     title: "Carbon Commitment",
   },
@@ -105,6 +130,17 @@ const progressItems = [
   },
   {
     image: images['/src/assets/img/BlogPage/better-factories.png'],
+=======
+    image: images ['/src/assets/img/BlogPage/carbon-commitment.png'],
+    title: "Carbon Commitment",
+  },
+  {
+    image: images ['/src/assets/img/BlogPage/environmental-initiatives.png'],
+    title: "Environmental Initiatives",
+  },
+  {
+    image: images ['/src/assets/img/BlogPage/better-factories.png'],
+>>>>>>> 84eaaf4 (Reorganized component folders by page:)
     title: "Better Factories",
   },
 ];
@@ -118,4 +154,7 @@ img.title:hover {
   transform: scale(1.02);
   opacity: 0.95;
 }
+<<<<<<< HEAD
 </style>
+=======
+>>>>>>> 84eaaf4 (Reorganized component folders by page:)

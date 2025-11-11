@@ -149,7 +149,10 @@ const tips2 = [
 ]
 
 const images = import.meta.glob('/src/assets/img/PostPage/*.png', { eager: true, import: 'default' }) 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 84eaaf4 (Reorganized component folders by page:)
 const currentImage = images['/src/assets/img/PostPage/winter-whites-post.png']
 
 const items = [

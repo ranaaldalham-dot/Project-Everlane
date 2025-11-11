@@ -344,4 +344,7 @@ input[type='checkbox'] {
 .transition {
   transition: all 0.2s ease-in-out;
 }
+<<<<<<< HEAD
 </style>
+=======
+>>>>>>> 84eaaf4 (Reorganized component folders by page:)
