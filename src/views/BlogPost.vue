@@ -8,6 +8,6 @@
 
 <script setup>
 import Header from '../components/Header.vue'
-import PostSection from '../components/PostSection.vue'
+import PostSection from '../components/PostPage/PostSection.vue'
 import Footer from '../components/Footer.vue'
 </script>
