@@ -10,6 +10,6 @@
 <script setup>
 import Header from '../components/Header.vue'
 import SubNav from '../components/SubNav.vue'
-import ListingSection from '../components/ListingSection.vue'
+import ListingSection from '../components/ListtingPage/ListingSection.vue'
 import Footer from '../components/Footer.vue'
 </script>

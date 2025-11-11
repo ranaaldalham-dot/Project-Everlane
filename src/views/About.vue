@@ -10,6 +10,6 @@
 <script setup>
 import Header from '../components/Header.vue'
 import SubNav from '../components/SubNav.vue'
-import AboutSection from '../components/AboutSection.vue'
+import AboutSection from '../components/AboutPage/AboutSection.vue'
 import Footer from '../components/Footer.vue'
 </script>
