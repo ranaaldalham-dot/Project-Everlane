@@ -1,5 +1,4 @@
 <template>
-  
   <section class="relative">
     <div img class="hero w-full h-[600px] bg-cover bg-center flex items-center text-white" :style="{ backgroundImage: `url(${currentImage})` }"> 
       <div class=" justify-start space-y-3 px-10 py-4">
@@ -9,7 +8,7 @@
       </div>
     </div>  
   </section>
- 
+
   <section class="max-w-4xl mx-auto px-4 mt-12 border-t-8 border-black pt-10">
     <div class="flex items-start gap-4 mb-6">
       <div class="flex gap-1 pt-1">
@@ -149,14 +148,11 @@ const tips2 = [
 ]
 
 const images = import.meta.glob('/src/assets/img/PostPage/*.png', { eager: true, import: 'default' }) 
-<<<<<<< HEAD
 
-=======
->>>>>>> 84eaaf4 (Reorganized component folders by page:)
 const currentImage = images['/src/assets/img/PostPage/winter-whites-post.png']
 
 const items = [
-  { id: 1, name: 'The Cashmere Boxy Crew Sweater', price: '$139', link: 'Bone', image: images ['/src/assets/img/PostPage/edit1.png'] },
+  { id: 1, name: 'The Cashmere Boxy Crew Sweater', price: '$139', link: 'Bone', image: images ['/src/assets/img/PostPage/edit1.png'] },  
   { id: 2, name: 'The Corduroy Wide-Leg Pant', price: '$69', link: 'Canvas', image: images ['/src/assets/img/PostPage/edit2.png'] },
   { id: 3, name: 'The Organic Cotton Chunky Beanie', price: '$32', link: 'Canvas', image: images ['/src/assets/img/PostPage/edit3.png'] },
   { id: 4, name: 'The Chelsea Boot', price: '$137', link: 'Off-White', image: images ['/src/assets/img/PostPage/edit4.png'] },

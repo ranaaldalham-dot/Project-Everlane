@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <template>
   <div class="bg-slate-50">
     <Header />
@@ -13,20 +12,4 @@ import Header from '../components/Header.vue'
 import SubNav from '../components/SubNav.vue'
 import StoresSection from '../components/StoresPage/StoresSection.vue'
 import Footer from '../components/Footer.vue'
-=======
-<template>
-  <div class="bg-slate-50">
-    <Header />
-    <SubNav />
-    <StoresSection />
-    <Footer />
-  </div>
-</template>
-    
-<script setup>
-import Header from '../components/Header.vue'
-import SubNav from '../components/SubNav.vue'
-import StoresSection from '../components/StoresPage/StoresSection.vue'
-import Footer from '../components/Footer.vue'
->>>>>>> 84eaaf4 (Reorganized component folders by page:)
 </script>

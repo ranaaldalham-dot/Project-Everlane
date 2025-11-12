@@ -340,11 +340,7 @@ const products = reactive( [
 input[type='checkbox'] {
   accent-color: black;
 }
-
 .transition {
   transition: all 0.2s ease-in-out;
 }
-<<<<<<< HEAD
 </style>
-=======
->>>>>>> 84eaaf4 (Reorganized component folders by page:)
